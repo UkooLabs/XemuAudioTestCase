@@ -1,0 +1,56 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: Nexgen-OG, Configuration: Debug|Xbox -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP000002.rsp" with contents
+[
+/Od /I "Z:\Git\NexgenTestCase\Src\\Nexgen-Shared" /I "Z:\Git\NexgenTestCase\Src\\External\Lua\Src" /I "Z:\Git\NexgenTestCase\Src\\External\Gensys" /I "Z:\Git\NexgenTestCase\Src\\External\Stb" /I "Z:\Git\NexgenTestCase\Src\\External\TinyXml" /I "Z:\Git\NexgenTestCase\Src\\External\CglTF" /D "UNICODE" /D "_USE_XGMATH" /D "_XBOX" /D "XBOX_SAMPLE" /D "_DEBUG" /D "XBOX_OG" /FD /EHsc /RTC1 /MTd /GS /arch:SSE /Fo"z:\Git\NexgenTestCase\Src\Nexgen-OG\Debug\/" /Fd"z:\Git\NexgenTestCase\Src\Nexgen-OG\Debug\/" /W3 /c /ZI
+".\Main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP000002.rsp /nologo"
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP000003.rsp" with contents
+[
+/OUT:"z:\Git\NexgenTestCase\Src\Nexgen-OG\Debug\/Nexgen.exe" /INCREMENTAL /NOLOGO /DEBUG /PDB:"z:\Git\NexgenTestCase\Src\Nexgen-OG\Debug\/Nexgen.pdb" /MAP /subsystem:xbox /MACHINE:I386 /MACHINE:I386 /FIXED:NO xbdm.lib dmusicd.lib xnetd.lib xperf.lib xapilibd.lib d3d8d.lib d3dx8d.lib xgraphicsd.lib dsoundd.lib xboxkrnl.lib
+".\debug\Main.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP000003.rsp"
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP000004.rsp" with contents
+[
+/OUT:"z:\git\nexgentestcase\src\nexgen-og\debug\Nexgen.xbe" /stack:"0x10000" /debug /dontmountud /nolibwarn /testid:"0xffffaa02" /testname:"Nexgen" /testxbeversion:"4096"
+".\debug\Nexgen.exe"
+]
+Creating command line "imagebld.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP000004.rsp /nologo"
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP000005.rsp" with contents
+[
+/progress
+"Z:\Git\NexgenTestCase\Src\\Nexgen-Shared\Media" "xe:\Nexgen-OG\Media"
+"z:\git\nexgentestcase\src\nexgen-og\debug\Nexgen.xbe" "xe:\Nexgen-OG\Nexgen.xbe"
+]
+Creating command line "xbecopy.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP000005.rsp /nologo"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+Main.cpp
+Linking...
+Creating Xbox Image...
+Copying files to the Xbox...
+ 192.168.1.104 (192.168.1.104):
+  Z:\Git\NexgenTestCase\Src\\Nexgen-Shared\Media\Rick-Astley.wav => xe:\Nexgen-OG\Media\Rick-Astley.wav
+  ..skipping because file size and change times match
+  z:\git\nexgentestcase\src\nexgen-og\debug\Nexgen.xbe => xe:\Nexgen-OG\Nexgen.xbe
+..copied OK (1.473 Mbps)
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://z:\Git\NexgenTestCase\Src\Nexgen-OG\Debug\\BuildLog.htm"
+Nexgen-OG - 0 error(s), 0 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>
